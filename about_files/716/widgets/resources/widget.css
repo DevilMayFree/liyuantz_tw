@@ -1,0 +1,38 @@
+body .qcPlayerIcon {
+	display: flex;
+}
+
+body .qcPlayerIcon:before {
+	content: "";
+	position: relative;
+	height: 96px !important;
+	width: 96px !important;
+}
+
+body .qcIcon-play:before {
+	background-image: url(https://www.barings.com/assets/user/files/play_26x26.svg);
+}
+body .qcIcon-volume-max:before {
+	background-image: url(https://www.barings.com/assets/user/files/volume_26x26.svg);
+}
+body .qcIcon-settings:before {
+	background-image: url(https://www.barings.com/assets/user/files/settings_26x26.svg);
+}
+body .qcIcon-expand:before {
+	background-image: url(https://www.barings.com/assets/user/files/fullscreen_26x26.svg);
+}
+body .qcIcon-pause:before {
+	background-image: url(https://www.barings.com/assets/user/files/pause_26x26.svg);
+}
+body h1.title-bar-header {
+	display: none;
+}
+body span.title-bar-logo {
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+body .kv-overlay .kv-player {
+	padding: 0;
+}
