@@ -61458,7 +61458,7 @@ html[lang|=zh-tw] .cmp-header button {
 }
 
 .cmp-header__mobile .logo img {
-    height: 100%;
+    height: 150%;
     width: auto
 }
 
@@ -61971,7 +61971,7 @@ html[lang|=zh-hk] .cmp-header__menu-mobile__accordion__option__content__funds__t
 }
 
 .cmp-header__desktop .logo img {
-    height: 100%;
+    height: 150%;
     width: auto
 }
 
